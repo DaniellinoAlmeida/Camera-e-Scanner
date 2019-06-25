@@ -1,0 +1,82 @@
+/*Style Tag*/
+body{
+  background-image: url("https://i.pinimg.com/originals/82/fe/5d/82fe5d7746aa340948e4d0ffb3c9afcb.png");
+  background-repeat: repeat-y;
+}
+
+h1{
+  color: aqua;
+  text-align: center;
+}
+/*Fim Style Tag*/
+
+/*Style ID/Class*/
+#tamanho{
+ font-size: 25px;
+ color: aqua;
+ text-align: center;
+}
+
+#mapa:hover
+{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+#cam:hover
+{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+#scan:hover
+{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+/*Fim Style ID*/
+
+/*Começop BOX*/
+@-webkit-keyframes box {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes box {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes box {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes box {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes box{
+  0% {background-color: #FF5852;}
+  16%{background-color: #FF9000;}
+  32%{background-color: #FFD300;}
+  48%{background-color: #3DCD49;}
+  64%{background-color: #0089D7;}
+  80%{background-color: #9E44C4;}
+  96%{background-color: pink;}
+  112%{background-color: aqua;}
+  
+}
+
+.box {
+  display: flex;
+  width: 100%;
+  height: 8px;
+  margin: 5px 0px 30px 0px;
+  animation-name: box;
+  -webkit-animation: box 2s infinite;
+  -moz-animation:    box 2s infinite; 
+  -o-animation:      box 2s infinite;
+  animation:         box 2s infinite;
+}
+/*Fim BOX*/
