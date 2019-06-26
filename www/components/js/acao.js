@@ -70,4 +70,4 @@ function scanBarcode() {
 
       //Pegando coordenadas atuais
       navigator.geolocation.getCurrentPosition(onSuccess, onError);
-    }
+    }//sla
